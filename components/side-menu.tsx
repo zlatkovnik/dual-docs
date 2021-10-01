@@ -24,20 +24,22 @@ function SideMenu() {
         }
     }
 
+    let counter = 0;
+
     return (
         <Accordion styled>
             {docGroups?.map(dg => (
-                <>
+                <div key={dg.url}>
                     <Accordion.Title active={active === dg.name} index={dg.name} onClick={handleCollapse}>
                         <Icon name='dropdown' />
                         {dg.name}
                     </Accordion.Title>
                     <Accordion.Content active={active === dg.name}>
                     <>
-                    {dg.docs.map(doc => (<Link href={`${dg.url}/${doc}`}>{doc}</Link>))}
+                    {dg.docs.map(doc => (<Link key={counter++} href={`${dg.url}/${doc}`}>{doc}</Link>))}
                     </>
                     </Accordion.Content>
-                </>
+                </div>
             ))}
         </Accordion>
     )
