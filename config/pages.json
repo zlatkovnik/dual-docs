@@ -6,14 +6,17 @@
     },
     {
         "name": "Novi Desk",
-        "url": "/ibet2-desk"
+        "url": "/ibet2-desk",
+        "docs": ["test"]
     },
     {
         "name": "Stari Desk",
-        "url": "/ibet-web-client"
+        "url": "/ibet-web-client",
+        "docs": ["test"]
     },
     {
         "name": "Mobile",
-        "url": "/ibet2-mdc"
+        "url": "/ibet2-mdc",
+        "docs": ["test"]
     }
 ]
