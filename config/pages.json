@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Bet Admin",
+        "url": "/bet-admin",
+        "docs": ["test"]
+    },
+    {
+        "name": "Novi Desk",
+        "url": "/ibet2-desk"
+    },
+    {
+        "name": "Stari Desk",
+        "url": "/ibet-web-client"
+    },
+    {
+        "name": "Mobile",
+        "url": "/ibet2-mdc"
+    }
+]
